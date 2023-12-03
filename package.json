@@ -3,7 +3,7 @@
   "version": "0.0.0-development",
   "description": "A rollup.js (https://rollupjs.org) plugin that can transform yaml into json.",
   "main": "lib/index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "build": "rollup -c"
   },
@@ -17,9 +17,14 @@
   "author": "ConstasJ <constasj@qq.com>",
   "license": "MIT",
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
     "@types/node": "^20.10.2",
+    "eslint": "^8.55.0",
+    "prettier": "^3.1.0",
     "rollup": "^4.6.1",
     "rollup-plugin-ts": "^3.4.5",
+    "semantic-release": "^22.0.8",
     "ts-node": "^10.9.1",
     "typescript": "^5.3.2"
   }
