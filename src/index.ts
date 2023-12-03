@@ -1,5 +1,6 @@
-export default function MyFunction() {
+export default function yamlTransformer() {
     return {
-        name: 'myFunction'
+        name: 'yaml-transformer',
+        version: '1.0.0',
     }
 }
