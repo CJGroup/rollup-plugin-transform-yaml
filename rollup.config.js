@@ -4,7 +4,7 @@ import { defineConfig } from 'rollup';
 export default defineConfig({
     input: 'src/index.ts',
     output: {
-        format: 'cjs',
+        format: 'esm',
         file: 'lib/index.js',
     },
     plugins: [
