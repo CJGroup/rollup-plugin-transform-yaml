@@ -1,5 +1,5 @@
 import { readFile, readdir } from 'fs/promises';
-import { dirname, resolve } from 'path';
+import { resolve } from 'path';
 import { InputPluginOption } from 'rollup';
 import yaml from 'js-yaml';
 
