@@ -57,6 +57,7 @@ After building, you will get a directory structure like this:
 ```
 .
 ├── lib
+│   ├── index.js
 │   └── locales
 │       ├── en-US.json
 │       └── zh-CN.json
