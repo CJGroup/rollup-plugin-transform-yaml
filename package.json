@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "description": "A rollup.js (https://rollupjs.org) plugin that can transform yaml into json.",
   "main": "lib/index.js",
-  "type": "module",
+  "module": "lib/index.mjs",
+  "types": "lib/index.d.ts",
+  "exports" : {
+    "import": "./lib/index.mjs",
+    "require": "./lib/index.js"
+  },
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c --bundleConfigAsCjs"
   },
   "keywords": [
     "rollup",
